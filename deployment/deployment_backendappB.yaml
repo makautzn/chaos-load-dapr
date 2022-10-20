@@ -42,7 +42,7 @@ spec:
           - name: "PORT"
             value: "80"          
           - name: "TARGETURL"
-            value: "http://dmx-getrandom.azurewebsites.net/api/HttpTriggerCSharp1"          
+            value: "https://mka-getrandom.azurewebsites.net/api/getrandom"          
           - name: "TIMEOUT"
             value: "500"
           - name: "INSTANCENAME"

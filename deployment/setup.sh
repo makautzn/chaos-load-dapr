@@ -5,7 +5,7 @@ RESOURCE_GROUP=daprchaosload$MYRANDOM
 CLUSTERNAME=daprchaosloadcluster$MYRANDOM
 SUBSCRIPTION_ID=$(az account show --query "id" -o tsv)
 az group create --name $RESOURCE_GROUP --location westeurope
-az aks create -g $RESOURCE_GROUP -n $CLUSTERNAME  --node-count 1
+az aks create -g $RESOURCE_GROUP -n $CLUSTERNAME  --node-count 1 --generate-ssh-keys
 az aks get-credentials -n $CLUSTERNAME -g $RESOURCE_GROUP
 RESOURCE_ID=$(az aks show -n $CLUSTERNAME -g $RESOURCE_GROUP --query "id" -o tsv)
 

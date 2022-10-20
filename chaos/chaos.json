@@ -3,7 +3,7 @@
   "mode": "one",
   "direction": "to",
   "externalTargets": [
-    "dmx-getrandom.azurewebsites.net"
+    "mka-getrandom.azurewebsites.net"
   ],
   "selector": {
     "namespaces": [

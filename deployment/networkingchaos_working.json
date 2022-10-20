@@ -35,7 +35,7 @@
         "targets": [
           {
             "type": "ChaosTarget",
-            "id": "MYCHAOSTARGET"
+            "id": "/subscriptions/8894d5df-4079-46cc-b987-de832c865bcb/resourceGroups/daprchaosload22834/providers/Microsoft.ContainerService/managedClusters/daprchaosloadcluster22834/providers/Microsoft.Chaos/targets/Microsoft-AzureKubernetesServiceChaosMesh"
           }
         ]
       }

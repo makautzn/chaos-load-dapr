@@ -20,7 +20,7 @@ spec:
         #  dapr.io/app-id: "frontendapp-a"          
         #  dapr.io/app-port: "80"
         #  dapr.io/config: "appconfig"
-        #  dapr.io/log-level: "debug"  
+        #  dapr.io/log-level: "debug"
       labels:
         app: frontendapp-a        
     spec:
